@@ -11,9 +11,7 @@ import com.example.mojojojo.loginform.database_call.NetworkCall;
 
 import java.util.HashMap;
 
-public class pro_list_woman extends AppCompatActivity
-
-{
+public class pro_list_woman extends AppCompatActivity {
 
     ListView listView;
 
@@ -22,18 +20,18 @@ public class pro_list_woman extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pro_list_woman);
         getSupportActionBar().hide();
-        listView=(ListView)findViewById(R.id.prolist);
+        listView = (ListView) findViewById(R.id.prolist);
 
-        String[] proid={"1","2","3","4"};
+        String[] proid = {"1", "2", "3", "4"};
 
         int[] proimg = {R.drawable.cloth_woman_1, R.drawable.wompro1, R.drawable.womprod3, R.drawable.womprod4};
 
-        String[] protxt = {"Kurti","Reversible Embroidered Jacket"," Cropped Shirt","Biker Jacket"};
+        String[] protxt = {"Kurti", "Reversible Embroidered Jacket", " Cropped Shirt", "Biker Jacket"};
 
         String[] pro_detail =
                 {"cotten kurti by khadim",
-                 "Reversible Embroidered Bomber Jacket In BLACK ZAFUL",
-                        "Cat Print Cropped Shirt PINK: Blouses  ZAFUL" ,
+                        "Reversible Embroidered Bomber Jacket In BLACK ZAFUL",
+                        "Cat Print Cropped Shirt PINK: Blouses  ZAFUL",
                         "  Zippered Lapel Collar Biker Jacket In Cheri Color  ZAFUL"};
 
         String[] rs = {"Rs."};
@@ -47,7 +45,7 @@ public class pro_list_woman extends AppCompatActivity
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                Intent i1=new Intent(pro_list_woman.this,product_info.class);
+                Intent i1 = new Intent(pro_list_woman.this, product_info.class);
                 startActivity(i1);
             }
         });

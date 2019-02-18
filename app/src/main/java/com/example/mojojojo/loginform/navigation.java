@@ -26,12 +26,12 @@ public class navigation extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        grid1=(GridView)findViewById(R.id.g_catlist);
-                String catobj1[]={"CLOTHES","WATCHES","SHOES","ELECTROICS","FOOD","KITCHEN ASSOSARIES","KIDS TOYS","BOOKS"};
-        int[]testImage={R.drawable.clothe1,R.drawable.watch2,R.drawable.shoes,R.drawable.electronics,R.drawable.grocerry1,R.drawable.kitchen1,R.drawable.toys,R.drawable.book2};
-
-        My_adapter my_adpt=new My_adapter(navigation.this,R.layout.cat_raw,catobj1,testImage);
-        grid1.setAdapter(my_adpt);
+//        grid1=(GridView)findViewById(R.id.g_catlist);
+//                String catobj1[]={"CLOTHES","WATCHES","SHOES","ELECTROICS","FOOD","KITCHEN ASSOSARIES","KIDS TOYS","BOOKS"};
+//        int[]testImage={R.drawable.clothe1,R.drawable.watch2,R.drawable.shoes,R.drawable.electronics,R.drawable.grocerry1,R.drawable.kitchen1,R.drawable.toys,R.drawable.book2};
+//
+//        My_adapter my_adpt=new My_adapter(navigation.this,R.layout.cat_raw,catobj1,testImage);
+//        grid1.setAdapter(my_adpt);
 
 
        /* FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);

@@ -57,17 +57,21 @@
                         android:id="@+id/proli_txttitle"
                         />
                     <TextView
+                        android:maxLines="1"
+                        android:ellipsize="end"
+                        android:id="@+id/pro_detail"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Black color shirt for men"/>
+                        android:text="product all deatails in detail
+                        for product understandinh"/>
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:layout_marginLeft="140dp">
+                    android:layout_marginLeft="120dp">
 
                     <TextView
                         android:layout_width="wrap_content"

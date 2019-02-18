@@ -12,17 +12,17 @@ public interface user_interface {
     @POST("registration.php")
     Call<ResponseBody> REG_URL(
             //@Field("Subscribe_id")String Subscribe_id,
-            @Field("Subscribe_name")String Subscribe_name,
-            @Field("Subscribe_email")String Subscribe_email,
-            @Field("sub_password")String sub_password,
-            @Field("Contac_no")String Contac_no);
+            @Field("Subscribe_name") String Subscribe_name,
+            @Field("Subscribe_email") String Subscribe_email,
+            @Field("sub_password") String sub_password,
+            @Field("Contac_no") String Contac_no);
 
 
     @FormUrlEncoded
     @POST("login.php")
     Call<ResponseBody> login_URL(
-            @Field("Subscribe_email")String Subscribe_email,
-            @Field("sub_password")String sub_password);
+            @Field("Subscribe_email") String Subscribe_email,
+            @Field("sub_password") String sub_password);
 
 
 }

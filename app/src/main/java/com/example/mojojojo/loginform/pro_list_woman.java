@@ -7,6 +7,10 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
+import com.example.mojojojo.loginform.database_call.NetworkCall;
+
+import java.util.HashMap;
+
 public class pro_list_woman extends AppCompatActivity
 
 {

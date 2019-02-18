@@ -1,4 +1,4 @@
-#Sat Feb 16 13:09:25 IST 2019
-base.0=C\:\\Users\\dhyanvi shah\\AndroidStudioProjects\\Scan_Shop_16_2_19\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\27
+#Mon Feb 18 13:29:01 IST 2019
+base.0=/home/dhara/scanandshop/app/build/intermediates/transforms/dexMerger/debug/9
 path.0=classes.dex
 renamed.0=classes.dex

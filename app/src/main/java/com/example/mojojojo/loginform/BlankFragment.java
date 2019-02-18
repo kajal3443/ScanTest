@@ -17,6 +17,7 @@ ListView listview1;
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
 
+
         container=(ViewGroup) inflater.inflate(R.layout.fragment_blank, container, false);
         listview1 = (ListView)container.findViewById(R.id.listviewid);
 

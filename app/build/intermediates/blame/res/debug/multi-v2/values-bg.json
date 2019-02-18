@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\dhyanvi shah\\AndroidStudioProjects\\Scan_Shop_16_2_19\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-bg\\values-bg.xml",
+            "outputFile": "/home/dhara/scanandshop/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bg/values-bg.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\dhyanvi shah\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\f46a6e16430d7ea0b00ef86a04e93ead\\res\\values-bg\\values-bg.xml",
+                    "source": "/home/dhara/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/2b2e268d8d7adab66562a85b676598e4/res/values-bg/values-bg.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\dhyanvi shah\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\effadd903db8b5186aa9e2b94669a4f1\\res\\values-bg\\values-bg.xml",
+                    "source": "/home/dhara/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/e9a023eb4cda35f9acb77c762857a97c/res/values-bg/values-bg.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

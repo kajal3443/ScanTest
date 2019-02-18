@@ -1,0 +1,31 @@
+<resources>
+
+    <string name="app_name">CALCULATOR</string>
+    <string name="app_name1">ADD</string>
+    <string name="app_name2">MULTIPLICATION</string>
+    <string name="app_name3">SUBTRACT</string>
+    <string name="app_name4">DIVISION</string>
+    <string name="title">LOG IN FORM</string>
+    <string name="FEMALE">FEMALE</string>
+    <string name="MALE">MALE</string>
+    <string name="title_activity_nevigation">nevigation</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+      <!--  <string name="country_dropdown">Countery</string>
+        <string-array name="brew_array">
+            <item>Cappuccino</item>
+            <item>Espresso</item>
+            <item>Mocha</item>
+            <item>Caffè Americano</item>
+            <item>Cafe Zorro</item>
+        </string-array>-->
+
+</resources>

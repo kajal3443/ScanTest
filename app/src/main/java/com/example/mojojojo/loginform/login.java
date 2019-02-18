@@ -21,6 +21,7 @@ public class login extends AppCompatActivity {
 
     TextView t1;
     TextView tt1;
+    TextView tt11;
     EditText e1;
     EditText e2;
     Button b1;

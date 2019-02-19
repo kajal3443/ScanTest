@@ -2,16 +2,12 @@ package com.example.mojojojo.loginform;
 
 import android.app.Dialog;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
-import android.widget.ListView;
-
-import de.hdodenhof.circleimageview.CircleImageView;
 
 public class categeory_list extends AppCompatActivity {
 
@@ -29,7 +25,7 @@ public class categeory_list extends AppCompatActivity {
         grid1 = (GridView) findViewById(R.id.g_catlist);
 
         String catobj1[] = {"CLOTHES", "WATCHES", "SHOES", "ELECTROICS",  "KIDS TOYS", "BOOKS"};
-        int[] testImage = {R.drawable.clothe1, R.drawable.watch2, R.drawable.shoes, R.drawable.electronics, R.drawable.toys, R.drawable.books1};
+        int[] testImage = {R.drawable.clothe1, R.drawable.watch2, R.drawable.categoryshoes, R.drawable.electronics, R.drawable.toys, R.drawable.books1};
 
         My_adapter my_adpt = new My_adapter(this, R.layout.cat_raw, catobj1, testImage);
         grid1.setAdapter(my_adpt);
@@ -48,10 +44,7 @@ public class categeory_list extends AppCompatActivity {
                     ln.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View view) {
-                            Intent i1 = new Intent(categeory_list.this, pro_list_men.class);
-                            i1.putExtra("key",i);
-                            startActivity(i1);
-
+                            showProductList(i,1);
                         }
                     });
                     dialog.show();
@@ -61,10 +54,7 @@ public class categeory_list extends AppCompatActivity {
                     wmn.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View view) {
-
-                            Intent i2 = new Intent(categeory_list.this, pro_list_woman.class);
-                            startActivity(i2);
-
+                            showProductList(i,2);
                         }
                     });
                     dialog.show();
@@ -73,18 +63,25 @@ public class categeory_list extends AppCompatActivity {
                     kid.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View view) {
-
-                            Intent i3 = new Intent(categeory_list.this, pro_list_kid.class);
-                            startActivity(i3);
-
+                            showProductList(i,3);
                         }
                     });
                     dialog.show();
+                }else {
+                    showProductList(i,-1);
+
                 }
             }
 
         });
 
+    }
+
+    private void showProductList(int gridPosition, int subCaegoryPosition) {
+        Intent i1 = new Intent(categeory_list.this, ProductListActivity.class);
+        i1.putExtra("key",gridPosition);
+        i1.putExtra("sub_key",subCaegoryPosition);
+        startActivity(i1);
     }
 }
 

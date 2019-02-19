@@ -28,7 +28,7 @@
             android:orientation="vertical">
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="110dp"
+            android:layout_height="200dp"
             android:id="@+id/cat_img"
             android:layout_weight="1"/>
             <TextView

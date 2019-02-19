@@ -9,5 +9,6 @@ public class first_offer_page extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_first_offer_page);
+
     }
 }

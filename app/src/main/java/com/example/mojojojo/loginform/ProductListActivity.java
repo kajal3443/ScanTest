@@ -204,12 +204,12 @@ public class ProductListActivity extends AppCompatActivity {
         {
             String[] proid = {"1", "2"};
 
-            int[] proimg = {R.drawable.cloth_man_1, R.drawable.men};
+            int[] proimg = {R.drawable.kidshoe1, R.drawable.kidshoe2};
 
-            String[] protxt = {"Cotton T-Shirt", "Formal Shirt"};
+            String[] protxt = {"spiderman shoe", "Printed shoes"};
 
-            String[] pro_detail = {"Urbano Fashion Men's Black, Yellow, Grey Round Neck Full Sleeve",
-                    " Men Wear cotton Mens Shirts RM018 Color Black.: "
+            String[] pro_detail = {"Spiderman shoes for kids",
+                    " Printed Stylish shoes for girls "
             };
             String[] rs = {"Rs."};
             String[] price = {"300", "500"};
@@ -218,6 +218,7 @@ public class ProductListActivity extends AppCompatActivity {
                     proimg, protxt, pro_detail, rs, price);
 
             listView.setAdapter(pro_list_adpter);
+
         }
 
 /*
@@ -228,12 +229,12 @@ public class ProductListActivity extends AppCompatActivity {
         {
             String[] proid = {"1", "2"};
 
-            int[] proimg = {R.drawable.cloth_man_1, R.drawable.men};
+            int[] proimg = {R.drawable.electro1, R.drawable.electro2};
 
-            String[] protxt = {"Cotton T-Shirt", "Formal Shirt"};
+            String[] protxt = {"Sony LED TV", "Samsung M20 moblie"};
 
-            String[] pro_detail = {"Urbano Fashion Men's Black, Yellow, Grey Round Neck Full Sleeve",
-                    " Men Wear cotton Mens Shirts RM018 Color Black.: "
+            String[] pro_detail = {"Sony LED TV 42cm HD display ",
+                    " Samsung M20 4gb 32gb HD 13mp +5mp front camera "
             };
             String[] rs = {"Rs."};
             String[] price = {"300", "500"};
@@ -248,16 +249,16 @@ public class ProductListActivity extends AppCompatActivity {
          * Books category*/
 
         else if
-        (key == 4)
+        (key == 5)
         {
             String[] proid = {"1", "2"};
 
-            int[] proimg = {R.drawable.cloth_man_1, R.drawable.men};
+            int[] proimg = {R.drawable.book2, R.drawable.catbook};
 
-            String[] protxt = {"Cotton T-Shirt", "Formal Shirt"};
+            String[] protxt = {"The Girl in The Room 105", "The Perfect Us"};
 
-            String[] pro_detail = {"Urbano Fashion Men's Black, Yellow, Grey Round Neck Full Sleeve",
-                    " Men Wear cotton Mens Shirts RM018 Color Black.: "
+            String[] pro_detail = {"The Girl in The Room 105 by Chetan Bhagat",
+                    " The Perfect Us by Durjoy Dataa "
             };
             String[] rs = {"Rs."};
             String[] price = {"300", "500"};
@@ -272,16 +273,16 @@ public class ProductListActivity extends AppCompatActivity {
          * KIds toys category*/
 
         else if
-        (key == 5)
+        (key == 4)
         {
             String[] proid = {"1", "2"};
 
-            int[] proimg = {R.drawable.cloth_man_1, R.drawable.men};
+            int[] proimg = {R.drawable.kidtoy1, R.drawable.kidtoy2};
 
-            String[] protxt = {"Cotton T-Shirt", "Formal Shirt"};
+            String[] protxt = {"KTM Bike", "Little Puppy"};
 
-            String[] pro_detail = {"Urbano Fashion Men's Black, Yellow, Grey Round Neck Full Sleeve",
-                    " Men Wear cotton Mens Shirts RM018 Color Black.: "
+            String[] pro_detail = {"KTM bike with battery charger for kids in white and saffron",
+                    " Little puppy soft toy for kids "
             };
             String[] rs = {"Rs."};
             String[] price = {"300", "500"};

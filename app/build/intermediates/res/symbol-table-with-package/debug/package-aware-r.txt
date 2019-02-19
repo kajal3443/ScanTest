@@ -812,9 +812,11 @@ drawable avd_hide_password
 drawable avd_show_password
 drawable barcd
 drawable black_dress1
+drawable book1
 drawable book2
 drawable books1
 drawable button_shape
+drawable catbook
 drawable categoryshoes
 drawable catlist_img
 drawable chose_option_button_shape
@@ -829,6 +831,8 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable electro1
+drawable electro2
 drawable electronics
 drawable gre_dress1
 drawable grocerry1
@@ -837,6 +841,7 @@ drawable heart
 drawable ic_account_box_black_24dp
 drawable ic_account_circle_black_24dp
 drawable ic_add_shopping_cart_black_24dp
+drawable ic_clear_black_24dp
 drawable ic_delete_black_24dp
 drawable ic_favorite_black_24dp
 drawable ic_favorite_border_black_24dp
@@ -863,6 +868,10 @@ drawable kid2
 drawable kid3
 drawable kid4
 drawable kids
+drawable kidshoe1
+drawable kidshoe2
+drawable kidtoy1
+drawable kidtoy2
 drawable kidwat1
 drawable kidwat2
 drawable kitchen1
@@ -949,11 +958,14 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id add_to_bag
+id addtowish
 id alertTitle
 id all
 id always
 id async
 id auto
+id backtocategory
 id barrier
 id beginning
 id blocking
@@ -963,6 +975,12 @@ id bt2
 id buttonPanel
 id cancel_action
 id card_img
+id cart
+id cart_img
+id cart_main
+id cart_txt1
+id cart_txt2
+id cart_txt3
 id cat_img
 id cat_txt
 id center
@@ -1069,6 +1087,7 @@ id parent
 id parentPanel
 id parent_matrix
 id password
+id payment
 id percent
 id phonenum
 id pin
@@ -1202,6 +1221,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_cartlist
 layout activity_categeory_list
 layout activity_first_offer_page
 layout activity_forgot_pass
@@ -1217,6 +1237,7 @@ layout activity_regestration
 layout activity_splash
 layout activity_sub_category
 layout app_bar_nevigation
+layout cart_list_raw
 layout cat_raw
 layout cloth_dialog1
 layout content_nevigation

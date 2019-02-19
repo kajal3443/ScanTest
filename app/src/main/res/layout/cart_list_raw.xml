@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="6"
+            android:id="@+id/cart_main"
+            >
+
+            <ImageView
+                android:id="@+id/cart_img"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                />
+
+
+            <LinearLayout
+                android:layout_width="250dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/cart_txt1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:text="Lee Cooper"
+                    android:textColor="@color/black"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/cart_txt2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="30dp"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:layout_marginBottom="30dp"
+                    android:text="Men's Cotton T-Shirt"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/cart_txt3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="160dp"
+                    android:layout_weight="1"
+                    android:text="Rs.248"
+                    android:textColor="@color/red"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_clear_black_24dp"
+                android:backgroundTint="@color/black"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:layout_marginRight="10dp"
+                />
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:weightSum="4"
+        android:layout_alignParentLeft="true">
+
+        <Button
+            android:id="@+id/backtocategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="2"
+            android:text="Add more item"
+            android:textColor="@color/white"
+            android:background="@color/black"
+            android:layout_marginBottom="5dp"
+            />
+
+        <Button
+            android:id="@+id/payment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="2"
+            android:text="Payment"
+            android:textColor="@color/white"
+            android:background="@color/black"
+            android:layout_marginBottom="5dp"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -53,6 +53,9 @@
         <activity android:name="com.example.mojojojo.loginform.first_offer_page" />
         <activity android:name="com.example.mojojojo.loginform.product_info" />
         <activity android:name="com.example.mojojojo.loginform.ProductListActivity" />
+        <activity
+            android:name="com.example.mojojojo.loginform.Cartlist"
+            android:label="CART" />
 
         <provider
             android:name="com.squareup.picasso.PicassoProvider"

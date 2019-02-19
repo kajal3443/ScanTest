@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Mojo Jojo\AndroidStudioProjects\scan-test\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from C:\Users\Mojo Jojo\AndroidStudioProjects\scan-test\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from C:\Users\Mojo Jojo\AndroidStudioProjects\scan-test\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from C:\Users\Mojo Jojo\AndroidStudioProjects\scan-test\app\src\main\AndroidManifest.xml:2:1-52:12
+ADDED from C:\Users\Mojo Jojo\AndroidStudioProjects\scan-test\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from C:\Users\Mojo Jojo\AndroidStudioProjects\scan-test\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from C:\Users\Mojo Jojo\AndroidStudioProjects\scan-test\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from C:\Users\Mojo Jojo\AndroidStudioProjects\scan-test\app\src\main\AndroidManifest.xml:2:1-53:12
 MERGED from [com.android.support:design:27.1.1] C:\Users\Mojo Jojo\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\934640a32261be61a54edb85e0801773\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Mojo Jojo\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\dcb27b990176b0e3f1fa10f49053eda4\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Mojo Jojo\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\8016a5e542ffac5782c6be239807f28d\AndroidManifest.xml:2:1-11:12
@@ -25,22 +25,22 @@ MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Mojo Jojo\.gra
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Mojo Jojo\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\ef5bf7db69722362ecae1c8c8cab063a\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Mojo Jojo\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\b8cd249fd7252b312eecee45c8ec8178\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Mojo Jojo\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\7bfc02c239e212f684e833e788dd9b70\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\Mojo Jojo\AndroidStudioProjects\scan-test\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from C:\Users\Mojo Jojo\AndroidStudioProjects\scan-test\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from C:\Users\Mojo Jojo\AndroidStudioProjects\scan-test\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from C:\Users\Mojo Jojo\AndroidStudioProjects\scan-test\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from C:\Users\Mojo Jojo\AndroidStudioProjects\scan-test\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from C:\Users\Mojo Jojo\AndroidStudioProjects\scan-test\app\src\main\AndroidManifest.xml:2:1-53:12
 	package
 		ADDED from C:\Users\Mojo Jojo\AndroidStudioProjects\scan-test\app\src\main\AndroidManifest.xml:4:5-45
 		INJECTED from C:\Users\Mojo Jojo\AndroidStudioProjects\scan-test\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Mojo Jojo\AndroidStudioProjects\scan-test\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Mojo Jojo\AndroidStudioProjects\scan-test\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Mojo Jojo\AndroidStudioProjects\scan-test\app\src\main\AndroidManifest.xml:2:1-52:12
+		ADDED from C:\Users\Mojo Jojo\AndroidStudioProjects\scan-test\app\src\main\AndroidManifest.xml:2:1-53:12
 		INJECTED from C:\Users\Mojo Jojo\AndroidStudioProjects\scan-test\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\Mojo Jojo\AndroidStudioProjects\scan-test\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\Mojo Jojo\AndroidStudioProjects\scan-test\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Mojo Jojo\AndroidStudioProjects\scan-test\app\src\main\AndroidManifest.xml:2:1-52:12
+		ADDED from C:\Users\Mojo Jojo\AndroidStudioProjects\scan-test\app\src\main\AndroidManifest.xml:2:1-53:12
 		INJECTED from C:\Users\Mojo Jojo\AndroidStudioProjects\scan-test\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Mojo Jojo\AndroidStudioProjects\scan-test\app\src\main\AndroidManifest.xml:2:11-69
@@ -61,7 +61,7 @@ ADDED from C:\Users\Mojo Jojo\AndroidStudioProjects\scan-test\app\src\main\Andro
 	android:name
 		ADDED from C:\Users\Mojo Jojo\AndroidStudioProjects\scan-test\app\src\main\AndroidManifest.xml:9:22-78
 application
-ADDED from C:\Users\Mojo Jojo\AndroidStudioProjects\scan-test\app\src\main\AndroidManifest.xml:11:5-50:19
+ADDED from C:\Users\Mojo Jojo\AndroidStudioProjects\scan-test\app\src\main\AndroidManifest.xml:11:5-51:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Mojo Jojo\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\8016a5e542ffac5782c6be239807f28d\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Mojo Jojo\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\8016a5e542ffac5782c6be239807f28d\AndroidManifest.xml:9:5-20
 MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Mojo Jojo\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\42c691808e3d69fd18af4015a3509bbe\AndroidManifest.xml:9:5-20
@@ -156,6 +156,12 @@ activity#com.example.mojojojo.loginform.ProductListActivity
 ADDED from C:\Users\Mojo Jojo\AndroidStudioProjects\scan-test\app\src\main\AndroidManifest.xml:49:9-66
 	android:name
 		ADDED from C:\Users\Mojo Jojo\AndroidStudioProjects\scan-test\app\src\main\AndroidManifest.xml:49:19-54
+activity#com.example.mojojojo.loginform.Cartlist
+ADDED from C:\Users\Mojo Jojo\AndroidStudioProjects\scan-test\app\src\main\AndroidManifest.xml:50:9-76
+	android:label
+		ADDED from C:\Users\Mojo Jojo\AndroidStudioProjects\scan-test\app\src\main\AndroidManifest.xml:50:44-64
+	android:name
+		ADDED from C:\Users\Mojo Jojo\AndroidStudioProjects\scan-test\app\src\main\AndroidManifest.xml:50:19-43
 uses-sdk
 INJECTED from C:\Users\Mojo Jojo\AndroidStudioProjects\scan-test\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Mojo Jojo\AndroidStudioProjects\scan-test\app\src\main\AndroidManifest.xml

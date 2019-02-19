@@ -8,7 +8,7 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-class Pro_list_adpter  extends BaseAdapter{
+class Pro_list_adpter extends BaseAdapter {
 
     Context context;
     int[] proimg;
@@ -20,14 +20,14 @@ class Pro_list_adpter  extends BaseAdapter{
     LayoutInflater ly;
 
     public Pro_list_adpter(ProductListActivity pro_list_men, int pro_lismen_raw, int[] proimg, String[] protxt, String[] pro_detail, String[] rs, String[] price) {
-        this.context=pro_list_men;
-        this.pro_lismen_raw=pro_lismen_raw;
-        this.protxt=protxt;
-        this.pro_detail=pro_detail;
-        this.proimg=proimg;
-        this.rs=rs;
-        this.price=price;
-        }
+        this.context = pro_list_men;
+        this.pro_lismen_raw = pro_lismen_raw;
+        this.protxt = protxt;
+        this.pro_detail = pro_detail;
+        this.proimg = proimg;
+        this.rs = rs;
+        this.price = price;
+    }
 
     @Override
     public int getCount() {
@@ -47,12 +47,12 @@ class Pro_list_adpter  extends BaseAdapter{
     @Override
     public View getView(int i, View view, ViewGroup viewGroup) {
 
-        view=ly.from(context).inflate(pro_lismen_raw,null);
-        ImageView iv=(ImageView)view.findViewById(R.id.proli_img);
-        TextView tv=(TextView)view.findViewById(R.id.proli_txttitle);
-        TextView tvdtail2=(TextView)view.findViewById(R.id.pro_detail1);
-        TextView tv2=(TextView)view.findViewById(R.id.proli_txtrs);
-       iv.setImageResource(proimg[i]);
+        view = ly.from(context).inflate(pro_lismen_raw, null);
+        ImageView iv = (ImageView) view.findViewById(R.id.proli_img);
+        TextView tv = (TextView) view.findViewById(R.id.proli_txttitle);
+        TextView tvdtail2 = (TextView) view.findViewById(R.id.pro_detail1);
+        TextView tv2 = (TextView) view.findViewById(R.id.proli_txtrs);
+        iv.setImageResource(proimg[i]);
         tv.setText(protxt[i]);
         tvdtail2.setText(pro_detail[i]);
         tv2.setText(rs[0]);

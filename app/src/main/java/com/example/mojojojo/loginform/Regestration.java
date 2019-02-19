@@ -46,7 +46,7 @@ public class Regestration extends AppCompatActivity {
         t1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i2 = new Intent(Regestration.this, navigation.class);
+                Intent i2 = new Intent(Regestration.this, mainpage.class);
                 startActivity(i2);
             }
         });

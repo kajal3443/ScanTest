@@ -46,6 +46,7 @@
         <activity android:name=".mainpage" />
         <activity android:name=".first_offer_page" />
         <activity android:name=".product_info"></activity>
+        <activity android:name=".ProductListActivity"></activity>
     </application>
 
 </manifest>

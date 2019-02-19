@@ -19,6 +19,7 @@
         android:icon="@mipmap/ic_launcher"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
             android:name="com.example.mojojojo.loginform.Main3Activity"
@@ -51,12 +52,16 @@
         <activity android:name="com.example.mojojojo.loginform.mainpage" />
         <activity android:name="com.example.mojojojo.loginform.first_offer_page" />
         <activity android:name="com.example.mojojojo.loginform.product_info" />
-        <activity android:name="com.example.mojojojo.loginform.pro_list_men" />
+        <activity android:name="com.example.mojojojo.loginform.ProductListActivity" />
 
         <provider
             android:name="com.squareup.picasso.PicassoProvider"
             android:authorities="com.example.mojojojo.loginform.com.squareup.picasso"
             android:exported="false" />
+        <provider
+            android:name="com.android.tools.ir.server.InstantRunContentProvider"
+            android:authorities="com.example.mojojojo.loginform.com.android.tools.ir.server.InstantRunContentProvider"
+            android:multiprocess="true" />
     </application>
 
 </manifest>

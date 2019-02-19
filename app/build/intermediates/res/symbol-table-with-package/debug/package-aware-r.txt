@@ -815,6 +815,7 @@ drawable black_dress1
 drawable book2
 drawable books1
 drawable button_shape
+drawable categoryshoes
 drawable catlist_img
 drawable chose_option_button_shape
 drawable cloth_man_1
@@ -862,7 +863,10 @@ drawable kid2
 drawable kid3
 drawable kid4
 drawable kids
+drawable kidwat1
+drawable kidwat2
 drawable kitchen1
+drawable lathershos2
 drawable lightblue
 drawable lit_orng
 drawable loginbutton
@@ -873,6 +877,8 @@ drawable mall6
 drawable men
 drawable men_offeres3
 drawable men_offers2
+drawable menwatch1
+drawable menwatch2
 drawable mirr
 drawable mobi
 drawable mobi1
@@ -897,6 +903,7 @@ drawable shoes
 drawable side_nav_bar
 drawable smf
 drawable spllogo
+drawable sportshoes1
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable toys
@@ -905,11 +912,15 @@ drawable trolly_cart
 drawable watch2
 drawable winrain
 drawable wishlist_button_shap
+drawable womanwatch1
 drawable women
 drawable women_offer2
+drawable womenwatch2
 drawable wompro1
 drawable womprod3
 drawable womprod4
+drawable womshoes1
+drawable womshoes2
 id ALT
 id CTRL
 id FUNCTION
@@ -1061,7 +1072,7 @@ id password
 id percent
 id phonenum
 id pin
-id pro_detail
+id pro_detail1
 id progress_circular
 id progress_horizontal
 id proli_img
@@ -1200,9 +1211,7 @@ layout activity_main3
 layout activity_mainpage
 layout activity_nevigation
 layout activity_password
-layout activity_pro_list_kid
 layout activity_pro_list_men
-layout activity_pro_list_woman
 layout activity_product_info
 layout activity_regestration
 layout activity_splash

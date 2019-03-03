@@ -1,6 +1,7 @@
 package com.example.mojojojo.loginform;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
@@ -119,6 +120,19 @@ public class navigation extends AppCompatActivity
         } else if (id == R.id.nav_account) {
 
         } else if (id == R.id.nav_settings) {
+
+            SharedPreferences sharedPreferences;
+            SharedPreferences.Editor shaerdpre;
+            sharedPreferences = getSharedPreferences("user information"
+                    , MODE_PRIVATE);
+            shaerdpre = sharedPreferences.edit();
+            shaerdpre.putString("email", "");
+            shaerdpre.apply();
+
+           // MyParam.listCart.add(product);
+            Intent signout=new Intent(navigation.this,login.class);
+            startActivity(signout);
+
 
         }
 

@@ -1,6 +1,7 @@
 package com.example.mojojojo.loginform.database_call;
 
 import android.support.annotation.NonNull;
+import android.util.Log;
 
 import java.util.HashMap;
 
@@ -16,7 +17,7 @@ public class NetworkCall {
 
     private boolean isTaskKilled = false;
 
-    public static String SERVER_URL_WEBSERVICE_API = "http://192.168.1.21/ecommerce/webservices.php";
+    public static String SERVER_URL_WEBSERVICE_API = "http://proglan.in/techmicra/scanandshop/scan_and_shop.php";
     private static final String TAG = "NetworkCall";
 
 
@@ -42,6 +43,7 @@ public class NetworkCall {
                     responseString = "";
                 }
                 setDataRes.setResponse(responseString);
+                Log.e(TAG, "onResponse: "+ responseString);
             }
             @Override
             public void onFailure(@NonNull Call<Object> call, @NonNull Throwable t) {

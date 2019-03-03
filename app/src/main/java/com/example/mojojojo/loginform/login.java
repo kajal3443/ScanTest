@@ -1,6 +1,7 @@
 package com.example.mojojojo.loginform;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -9,6 +10,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import org.json.JSONException;
 import org.json.JSONObject;
 
 import okhttp3.ResponseBody;
@@ -23,6 +25,10 @@ public class login extends AppCompatActivity {
     Button b1;
     Button b2;
 
+
+    SharedPreferences sharedPreferences;
+    SharedPreferences.Editor shaerdpre;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,14 +41,26 @@ public class login extends AppCompatActivity {
         b2 = (Button) findViewById(R.id.bt2);
         t1 = (TextView) findViewById(R.id.text);
 
+        sharedPreferences = getSharedPreferences("user information"
+                , MODE_PRIVATE);
+
+        String email = sharedPreferences.getString("email", "");
+        if (!email.equals("")) {
+            MyParam.userEmail=email;
+            Intent i1 = new Intent(login.this, mainpage.class);
+            startActivity(i1);
+            finish();
+        }
+
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
-//                SharedPreferences.Editor shaerdpre = getSharedPreferences("email", MODE_PRIVATE).edit();
-//                shaerdpre.putString("email", e1.getText().toString());
-//                shaerdpre.apply();
-//                // String s1= e1.getText().toString();
+                shaerdpre = sharedPreferences.edit();
+                final String email = e1.getText().toString();
+                shaerdpre.putString("email", email);
+                shaerdpre.apply();
+//                String s1= e1.getText().toString();
 //                String s2 = e2.getText().toString();
 
                 if (reglogin())
@@ -50,19 +68,22 @@ public class login extends AppCompatActivity {
                     retrofit2.Call<ResponseBody> call = Config
                             .getmInstance()
                             .getApi()
-                            .login_URL(e1.getText().toString(), e2.getText().toString());
+                            .login_URL(email, e2.getText().toString());
                     call.enqueue(new retrofit2.Callback<ResponseBody>()
                     {
                         @Override
                         public void onResponse(retrofit2.Call<ResponseBody> call, Response<ResponseBody> response)
                         {
                             JSONObject jsonObject = new JSONObject();
+                            MyParam.userEmail = email;
+
                             String s = jsonObject.toString();
 
                             Toast.makeText(login.this,"login Successfully",Toast.LENGTH_LONG).show();
 
                             Intent i1 = new Intent(login.this, mainpage.class);
                             startActivity(i1);
+                            finish();
 
                         }
 

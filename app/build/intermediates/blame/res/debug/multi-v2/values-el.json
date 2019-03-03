@@ -1,8 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Mojo Jojo\\AndroidStudioProjects\\scan-test\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-el\\values-el.xml",
+            "outputFile": "C:\\Users\\Mojo Jojo\\AndroidStudioProjects\\scan-test_2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-el\\values-el.xml",
             "map": [
+                {
+                    "source": "C:\\Users\\Mojo Jojo\\.gradle\\caches\\transforms-1\\files-1.1\\zxing-android-embedded-3.4.0.aar\\185d6063f55304689d6abdfcb91c0608\\res\\values-el\\values-el.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,114,161,311",
+                        "endColumns": "58,46,149,114",
+                        "endOffsets": "109,156,306,421"
+                    },
+                    "to": {
+                        "startLines": "21,22,23,24",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "2123,2182,2229,2379",
+                        "endColumns": "58,46,149,114",
+                        "endOffsets": "2177,2224,2374,2489"
+                    }
+                },
                 {
                     "source": "C:\\Users\\Mojo Jojo\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\114a286ae8167c9f832570365d7ca6ff\\res\\values-el\\values-el.xml",
                     "from": {

@@ -1,8 +1,35 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Mojo Jojo\\AndroidStudioProjects\\scan-test\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
+            "outputFile": "C:\\Users\\Mojo Jojo\\AndroidStudioProjects\\scan-test_2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
             "map": [
+                {
+                    "source": "C:\\Users\\Mojo Jojo\\.gradle\\caches\\transforms-1\\files-1.1\\plug-n-play-1.4.4.aar\\b15a00c9107106838d1fb8e50f44acfd\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,113,163,211,266,321,368",
+                        "endColumns": "57,49,47,54,54,46,60",
+                        "endOffsets": "108,158,206,261,316,363,424"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Mojo Jojo\\.gradle\\caches\\transforms-1\\files-1.1\\payumoney-sdk-7.4.4.aar\\69e0c3f32949f555ec70df056a10cc47\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,114",
+                        "endColumns": "58,37",
+                        "endOffsets": "109,147"
+                    },
+                    "to": {
+                        "startLines": "9,10",
+                        "startColumns": "4,4",
+                        "startOffsets": "429,488",
+                        "endColumns": "58,37",
+                        "endOffsets": "483,521"
+                    }
+                },
                 {
                     "source": "C:\\Users\\Mojo Jojo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\dcb27b990176b0e3f1fa10f49053eda4\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
                     "from": {
@@ -12,6 +39,31 @@
                         "endLines": "6",
                         "endColumns": "13",
                         "endOffsets": "327"
+                    },
+                    "to": {
+                        "startLines": "13",
+                        "startColumns": "4",
+                        "startOffsets": "640",
+                        "endLines": "17",
+                        "endColumns": "13",
+                        "endOffsets": "912"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Mojo Jojo\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.9.8.aar\\bb767c93f27e4e82706f81134522321d\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,113",
+                        "endColumns": "57,55",
+                        "endOffsets": "108,164"
+                    },
+                    "to": {
+                        "startLines": "11,12",
+                        "startColumns": "4,4",
+                        "startOffsets": "526,584",
+                        "endColumns": "57,55",
+                        "endOffsets": "579,635"
                     }
                 }
             ]

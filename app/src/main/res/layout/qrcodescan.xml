@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/scanqrpg"
+    tools:context=".qrcodescan">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/d2">
+
+        <Button
+            android:id="@+id/buttonScan"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="290dp"
+            android:background="@drawable/scanroundbutton"
+            android:text="SCAN QR"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-black"/>
+
+
+
+    </RelativeLayout>
+</RelativeLayout>
+
+    <!--<Button-->
+    <!--android:id="@+id/buttonScan"-->
+    <!--android:layout_width="200dp"-->
+    <!--android:layout_height="200dp"-->
+    <!--android:background="@drawable/scanroundbutton"-->
+    <!--android:layout_marginTop="260dp"-->
+    <!--android:layout_marginLeft="100dp"-->
+    <!--android:text="Scan QR Code"-->
+    <!--android:textColor="@color/white"/>-->

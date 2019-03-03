@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Mojo Jojo\\AndroidStudioProjects\\scan-test_2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v22\\values-large-v22.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Mojo Jojo\\.gradle\\caches\\transforms-1\\files-1.1\\payu-custom-browser-7.2.1.aar\\fe9edc50b3a5531b1c17fb9c7d93a384\\res\\values-large-v22\\values-large-v22.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,148",
+                        "endLines": "2,5",
+                        "endColumns": "92,12",
+                        "endOffsets": "143,310"
+                    }
+                }
+            ]
+        }
+    ]
+}

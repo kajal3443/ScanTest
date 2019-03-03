@@ -3,16 +3,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".BlankFragment"
-    android:layout_gravity="center">
+    android:layout_gravity="center"
+    tools:context=".BlankFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <ListView
+        android:id="@+id/listviewid"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/listviewid"
-        android:background="@color/white"
-        >
+        android:background="@color/white">
 
     </ListView>
+
+
 </FrameLayout>

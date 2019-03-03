@@ -5,22 +5,56 @@
     android:versionName="1.1" >
 
     <uses-sdk
-        android:minSdkVersion="15"
+        android:minSdkVersion="21"
         android:targetSdkVersion="27" />
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission
+        android:name="android.permission.RECEIVE_SMS"
+        android:protectionLevel="signature" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Require below permissions for reading sms and otp assist feature -->
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.screen.landscape"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="false" />
 
     <application
-        android:allowBackup="true"
+        android:allowBackup="false"
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme"
+        android:windowSoftInputMode="adjustPan" >
+        <activity android:name="com.example.mojojojo.loginform.CashConfirm" />
         <activity
             android:name="com.example.mojojojo.loginform.Main3Activity"
             android:label="table" />
@@ -33,10 +67,11 @@
         <activity android:name="com.example.mojojojo.loginform.forgot_pass" />
         <activity
             android:name="com.example.mojojojo.loginform.categeory_list"
-            android:label="CATEGORY" />
+            android:label="CATEGORY"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="com.example.mojojojo.loginform.Splash"
-            android:label="EMALL" >
+            android:label="Scan&amp;Shop" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -56,6 +91,69 @@
         <activity
             android:name="com.example.mojojojo.loginform.Cartlist"
             android:label="CART" />
+        <activity android:name="com.example.mojojojo.loginform.qrcodescan" />
+        <activity android:name="com.example.mojojojo.loginform.User_order" />
+        <activity
+            android:name="com.payumoney.sdkui.ui.activities.PayUmoneyActivity"
+            android:label="@string/title_activity_citrus"
+            android:screenOrientation="portrait"
+            android:theme="@style/PayumoneyAppTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.payumoney.sdkui.ui.activities.ReviewOrderActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/PayumoneyAppTheme" />
+        <activity
+            android:name="com.payumoney.core.SdkWebViewActivityNew"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.payu.custombrowser.CBActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <service android:name="com.payu.custombrowser.services.SnoozeService" />
+
+        <activity
+            android:name="com.payu.custombrowser.upiintent.PaymentResponseActivity"
+            android:theme="@style/Theme.Transparent" />
+        <activity android:name="com.payu.custombrowser.PreLollipopPaymentsActivity" >
+            <intent-filter>
+                <data android:scheme="com.example.mojojojo.loginform.success" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+            <intent-filter>
+                <data android:scheme="com.example.mojojojo.loginform.failure" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.payu.custombrowser.PrePaymentsActivity" />
+        <activity android:name="com.payu.magicretry.MainActivity" >
+
+            <!--
+            intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter
+            -->
+        </activity>
+        <activity
+            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+            android:clearTaskOnLaunch="true"
+            android:screenOrientation="sensorLandscape"
+            android:stateNotNeeded="true"
+            android:theme="@style/zxing_CaptureTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
 
         <provider
             android:name="com.squareup.picasso.PicassoProvider"

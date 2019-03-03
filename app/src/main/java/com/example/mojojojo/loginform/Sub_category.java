@@ -16,6 +16,7 @@ public class Sub_category extends AppCompatActivity {
         Intent colth_intent = getIntent();
         int pos = colth_intent.getIntExtra("pos", -1);
 
+
         if (pos == 0) {
 
             String[] cloth_txt = {"MEN", "WOMEN", "KIDS"};

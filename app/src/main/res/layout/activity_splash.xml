@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_centerInParent="true"
-        android:src="@color/colorPrimaryDark" />
+        android:src="@color/white" />
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -21,8 +21,8 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/mobii"
-            android:layout_marginRight="25dp"/>
+            android:src="@drawable/splashscreen2"
+            android:layout_margin="80dp"/>
 
 
     </RelativeLayout>

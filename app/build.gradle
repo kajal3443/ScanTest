@@ -4,7 +4,7 @@ android {
     compileSdkVersion 27
     defaultConfig {
         applicationId "com.example.mojojojo.loginform"
-        minSdkVersion 15
+        minSdkVersion 21
         targetSdkVersion 27
         versionCode 1
         versionName "1.1"
@@ -29,6 +29,7 @@ dependencies {
     implementation 'com.android.support:cardview-v7:27.1.1'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
+
     implementation 'com.squareup.picasso:picasso:2.71828'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
@@ -45,6 +46,9 @@ dependencies {
     implementation 'com.squareup.retrofit2:retrofit:2.4.0'
     implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
 
-
+    //qrcode Scan library
+    implementation 'com.journeyapps:zxing-android-embedded:3.4.0'
+    implementation 'me.dm7.barcodescanner:zxing:1.9.8'
+    implementation 'com.payumoney.sdkui:plug-n-play:1.4.4'
 
 }

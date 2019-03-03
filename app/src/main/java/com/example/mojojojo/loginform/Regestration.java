@@ -93,7 +93,7 @@ public class Regestration extends AppCompatActivity {
             } else if (!(pswd.getText().toString().equals(chpswd.getText().toString()))) {
                 pswd.setError("Mismatch password");
             } else if (phno.length() < 10 || phno.length() > 10) {
-                phno.setError("Check your Phone number");
+                phno.setError("Check your splash_phone number");
             } else {
                 return true;
             }

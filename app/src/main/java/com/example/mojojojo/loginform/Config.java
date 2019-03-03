@@ -5,7 +5,8 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class Config {
 
-    public static String BASE_URL="http://192.168.43.97/scan_shop/";
+    public static String BASE_URL="http://proglan.in/techmicra/scanandshop/";
+//    Tech_micra_port=192.168.0.108
     public static Config mInstance;
     private Retrofit retrofit;
 

@@ -7,28 +7,32 @@ import android.os.Bundle;
 
 public class Splash extends AppCompatActivity {
 
+    //SharedPreferences sharedPreferences;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
         getSupportActionBar().hide();
 
-        SharedPreferences shapre=getSharedPreferences("username",MODE_PRIVATE);
-        final String restoreText=shapre.getString("name",null);
-        Thread th=new Thread(){
+        SharedPreferences shapre = getSharedPreferences("user information", MODE_PRIVATE);
+        final String restoreText = shapre.getString("email", "");
+
+        Thread th = new Thread() {
             @Override
             public void run() {
                 super.run();
                 try {
-                    sleep(4000);
-                    if (restoreText == null) {
+                    sleep(2000);
+                    if (restoreText.equals("")) {
+
                         Intent i = new Intent(Splash.this, login.class);
                         startActivity(i);
                         finish();
                     } else {
-                        Intent i = new Intent(Splash.this, navigation.class);
+                       MyParam.userEmail=restoreText;
+                        Intent i = new Intent(Splash.this, mainpage.class);
                         startActivity(i);
-
+                        finish();
                     }
 
                 } catch (InterruptedException e) {
